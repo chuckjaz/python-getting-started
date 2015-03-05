@@ -1,3 +1,4 @@
+import cgi
 import webapp2
 
 MAIN_PAGE_HTML = """\
