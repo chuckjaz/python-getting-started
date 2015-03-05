@@ -27,5 +27,5 @@ class Repeater(webapp2.RequestHandler):
 
 application = webapp2.WSGIApplication([
     ('/', MainPage),
-    ('/repeat', Guestbook),
+    ('/repeat', Repeater),
 ], debug=True)
