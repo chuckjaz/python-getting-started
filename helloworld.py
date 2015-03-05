@@ -1,5 +1,3 @@
-import cgi
-from google.appengine.api import users
 import webapp2
 
 MAIN_PAGE_HTML = """\
